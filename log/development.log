@@ -1441,3 +1441,628 @@ Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.1ms)
   Rendered home/_header.html.erb (2.2ms)
 Completed 200 OK in 171ms (Views: 169.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-07 19:12:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (31.2ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 229ms (Views: 227.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:12:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.4ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 213ms (Views: 211.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:13:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.7ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 205ms (Views: 203.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:13:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 204ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:13:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 185ms (Views: 184.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 19:13:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 135ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 19:13:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.3ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:13:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 148ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:13:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 158ms (Views: 156.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-07 19:13:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (54.8ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 251ms (Views: 249.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:13:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (27.2ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 218ms (Views: 216.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 19:13:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 197ms (Views: 196.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:16:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (28.7ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 223ms (Views: 219.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:19:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/vagrant/friend-list/app/views/devise/sessions/new.html.erb:6: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+... :email, class :"form-control", autofocus: true, autocomplet...
+...                               ^
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:6: Can't assign to true
+...form-control", autofocus: true, autocomplete: "email" );@out...
+...                               ^
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:11: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+...assword, class :"form-control", autocomplete: "current-passw...
+...                               ^):
+  app/views/devise/sessions/new.html.erb:6: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+  app/views/devise/sessions/new.html.erb:6: Can't assign to true
+  app/views/devise/sessions/new.html.erb:11: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.8ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:19:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/vagrant/friend-list/app/views/devise/sessions/new.html.erb:6: syntax error, unexpected keyword_class, expecting ')'
+...nd=( f.email_field :email class :"form-control", autofocus: ...
+...                               ^
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:6: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+...d :email class :"form-control", autofocus: true, autocomplet...
+...                               ^
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:6: Can't assign to true
+...form-control", autofocus: true, autocomplete: "email" );@out...
+...                               ^
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:11: syntax error, unexpected keyword_class, expecting ')'
+....password_field :password class :"form-control", autocomplet...
+...                               ^
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:11: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+...password class :"form-control", autocomplete: "current-passw...
+...                               ^):
+  app/views/devise/sessions/new.html.erb:6: syntax error, unexpected keyword_class, expecting ')'
+  app/views/devise/sessions/new.html.erb:6: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+  app/views/devise/sessions/new.html.erb:6: Can't assign to true
+  app/views/devise/sessions/new.html.erb:11: syntax error, unexpected keyword_class, expecting ')'
+  app/views/devise/sessions/new.html.erb:11: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.4ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:19:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.8ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 179ms (Views: 175.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:20:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/vagrant/friend-list/app/views/devise/sessions/new.html.erb:6: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+...email", class :"form-control" );@output_buffer.safe_append='
+...                               ^
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+/vagrant/friend-list/app/views/devise/sessions/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/devise/sessions/new.html.erb:6: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+  app/views/devise/sessions/new.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+  app/views/devise/sessions/new.html.erb:28: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/devise/sessions/new.html.erb:30: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.4ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:20:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/vagrant/friend-list/app/views/devise/sessions/new.html.erb:6: syntax error, unexpected '='
+..., autocomplete: "email", class="form-control" );@output_buff...
+...                               ^):
+  app/views/devise/sessions/new.html.erb:6: syntax error, unexpected '='
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.2ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:21:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (22.4ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 189ms (Views: 186.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:21:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (27.0ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 212ms (Views: 210.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:22:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.8ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 209ms (Views: 206.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:22:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (30.9ms)
+  Rendered home/_header.html.erb (1.2ms)
+Completed 200 OK in 257ms (Views: 254.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:25:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (55.3ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 240ms (Views: 238.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-07 19:25:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (53.1ms)
+  Rendered home/_header.html.erb (1.2ms)
+Completed 200 OK in 301ms (Views: 297.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:25:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.3ms)
+Completed 200 OK in 194ms (Views: 192.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:25:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (1.2ms)
+Completed 200 OK in 218ms (Views: 216.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-07 19:25:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (49.4ms)
+  Rendered home/_header.html.erb (1.3ms)
+Completed 200 OK in 263ms (Views: 260.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-07 19:26:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.2ms)
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (38.3ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 226ms (Views: 224.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:26:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.9ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 190ms (Views: 188.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:33:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dcjglZJEzoqztXKol7HicQsmkho46ZT4pijzBpzDwaT9PZLeWMFd7IPr4ayML7pHujWN31i5xyJT4W464tr57A==", "user"=>{"email"=>"ryan@mail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "ryan@mail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 309ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 19:33:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered home/_header.html.erb (3.0ms)
+  Rendered layouts/_alerts.html.erb (0.1ms)
+Completed 200 OK in 168ms (Views: 166.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:33:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 1.1ms)
+
+SyntaxError (/vagrant/friend-list/app/views/devise/registrations/edit.html.erb:35: syntax error, unexpected '='
+...end=( f.submit "Update", class="btn btn-info");@output_buffe...
+...                               ^):
+  app/views/devise/registrations/edit.html.erb:35: syntax error, unexpected '='
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.5ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:33:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (30.1ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 228ms (Views: 223.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:34:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 1.1ms)
+
+SyntaxError (/vagrant/friend-list/app/views/devise/registrations/edit.html.erb:35: syntax error, unexpected keyword_class, expecting ')'
+...ppend=( f.submit "Update" class:'btn btn-info' );@output_buf...
+...                               ^
+/vagrant/friend-list/app/views/devise/registrations/edit.html.erb:35: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+..."Update" class:'btn btn-info' );@output_buffer.safe_append='
+...                               ^
+/vagrant/friend-list/app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/vagrant/friend-list/app/views/devise/registrations/edit.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+/vagrant/friend-list/app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/devise/registrations/edit.html.erb:35: syntax error, unexpected keyword_class, expecting ')'
+  app/views/devise/registrations/edit.html.erb:35: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+  app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+  app/views/devise/registrations/edit.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/devise/registrations/edit.html.erb:47: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.0ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:34:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (19.3ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 190ms (Views: 185.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:34:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (28.9ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 246ms (Views: 241.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:37:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (26.8ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 215ms (Views: 209.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:37:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (1.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (15.1ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 170ms (Views: 165.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:38:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (18.3ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 216ms (Views: 210.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/edit" for 10.0.2.2 at 2021-03-07 19:39:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (3.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (23.1ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 221ms (Views: 213.7ms | ActiveRecord: 3.7ms)
+
+
+Started DELETE "/users/sign_out" for 10.0.2.2 at 2021-03-07 19:39:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Xg2ozhq9BwoLfP7oaEkBdLKIlNhM6cBubFBfZj8PIp9ys+EQg76i/oJeTJDPlAJGFasN/d5lGWEez3XFhlCdXg=="}
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 19:39:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.0ms)
+  Rendered layouts/_alerts.html.erb (0.1ms)
+Completed 200 OK in 176ms (Views: 175.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-07 19:39:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (46.4ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 276ms (Views: 274.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:39:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.0ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 229ms (Views: 227.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:39:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 202ms (Views: 201.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:39:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (2.0ms)
+Completed 200 OK in 189ms (Views: 188.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 19:39:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 148ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:39:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.4ms)
+Completed 200 OK in 190ms (Views: 188.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:43:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.7ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 199ms (Views: 197.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:44:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 201ms (Views: 199.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 19:44:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 192ms (Views: 190.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 19:44:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 155ms (Views: 154.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-07 19:44:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.2ms)
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (49.0ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 229ms (Views: 227.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:44:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (26.4ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 242ms (Views: 240.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2021-03-07 19:44:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N45Gr4THlHsCrCPH6MYOgX23O9mnmKKBzMJ29mys0Qk3CJeDQBUqPj5Z6qIoRc+vP9W6uKCWHhxQT/knPYICeA==", "user"=>{"email"=>"ryan@mail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "ryan@mail.com"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 314ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 19:44:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered home/_header.html.erb (2.9ms)
+  Rendered layouts/_alerts.html.erb (0.1ms)
+Completed 200 OK in 159ms (Views: 157.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 19:44:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (1.2ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (5.1ms)
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered home/_header.html.erb (4.6ms)
+Completed 200 OK in 192ms (Views: 188.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 19:44:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (7.9ms)
+  Rendered friends/new.html.erb within layouts/application (28.0ms)
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered home/_header.html.erb (4.4ms)
+Completed 200 OK in 216ms (Views: 213.6ms | ActiveRecord: 1.4ms)
