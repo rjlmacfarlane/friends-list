@@ -524,3 +524,695 @@ Processing by FriendsController#index as HTML
   Rendered friends/index.html.erb within layouts/application (3.2ms)
   Rendered home/_header.html.erb (0.6ms)
 Completed 200 OK in 217ms (Views: 215.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:10:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (1.2ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (3.9ms)
+  Rendered home/_header.html.erb (1.6ms)
+Completed 200 OK in 216ms (Views: 213.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 17:10:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (3.5ms)
+  Rendered friends/new.html.erb within layouts/application (18.4ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 221ms (Views: 219.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 17:12:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 184ms (Views: 183.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 17:12:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 209ms (Views: 207.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 17:12:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 163ms (Views: 161.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:12:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (1.1ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (4.6ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 222ms (Views: 219.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 17:12:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (3.1ms)
+  Rendered friends/new.html.erb within layouts/application (18.7ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 179ms (Views: 176.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:51:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (0.8ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (4.7ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 173ms (Views: 171.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:52:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (2.5ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (7.1ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 190ms (Views: 185.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 17:52:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (4.8ms)
+  Rendered friends/new.html.erb within layouts/application (27.8ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 201ms (Views: 200.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/friends" for 10.0.2.2 at 2021-03-07 17:53:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XtuzIVr98gYV5u0LR956o0+4RYj0vLyp+bAv19U7+O+PrHlplAyAkztoTLCIohGEwUNUGYprPhbkKOgc8B1lXw==", "friend"=>{"first_name"=>"Chris", "last_name"=>"Leslie", "email"=>"chris@testmail.com", "phone"=>"902-555-6271", "twitter"=>"@tiles"}, "commit"=>"Create Friend"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  INSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["first_name", "Chris"], ["last_name", "Leslie"], ["email", "chris@testmail.com"], ["phone", "902-555-6271"], ["twitter", "@tiles"], ["created_at", "2021-03-07 17:53:17.312014"], ["updated_at", "2021-03-07 17:53:17.312014"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/friends/3
+Completed 302 Found in 12ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/friends/3" for 10.0.2.2 at 2021-03-07 17:53:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mFriend Load (1.2ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.9ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 151ms (Views: 148.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 17:53:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (3.6ms)
+  Rendered friends/new.html.erb within layouts/application (16.7ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 151ms (Views: 149.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:53:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (0.7ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (3.7ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 136ms (Views: 134.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:53:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (1.8ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (7.0ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 165ms (Views: 159.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:54:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (1.3ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (4.3ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 178ms (Views: 175.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:55:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (2.0ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (6.7ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 179ms (Views: 175.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:55:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (1.2ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (6.2ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 144ms (Views: 141.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:56:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (3.4ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (8.3ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 210ms (Views: 205.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:56:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (1.1ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (5.0ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 142ms (Views: 139.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:56:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (1.0ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (5.8ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 207ms (Views: 204.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:58:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (5.1ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (11.4ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 170ms (Views: 163.6ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 17:58:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (0.8ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (5.2ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 133ms (Views: 131.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/friends/1" for 10.0.2.2 at 2021-03-07 18:01:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (1.6ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 208ms (Views: 203.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/friends/1" for 10.0.2.2 at 2021-03-07 18:02:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFriend Load (1.1ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.9ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 200ms (Views: 197.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/friends/1" for 10.0.2.2 at 2021-03-07 18:02:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (1.9ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.6ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 165ms (Views: 160.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/friends/1" for 10.0.2.2 at 2021-03-07 18:03:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFriend Load (2.4ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (2.0ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 142ms (Views: 136.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/friends/1" for 10.0.2.2 at 2021-03-07 18:06:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (1.2ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.2ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 150ms (Views: 147.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/friends/1" for 10.0.2.2 at 2021-03-07 18:06:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFriend Load (1.7ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.3ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 157ms (Views: 153.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 18:08:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 179ms (Views: 177.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:08:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (1.1ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (5.0ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 208ms (Views: 206.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:08:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (3.5ms)
+  Rendered friends/new.html.erb within layouts/application (23.1ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 216ms (Views: 214.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:08:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (3.3ms)
+  Rendered friends/new.html.erb within layouts/application (13.8ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 174ms (Views: 172.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2021-03-07 18:08:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 197ms (Views: 195.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 18:08:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 190ms (Views: 189.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:08:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (1.6ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (5.8ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 164ms (Views: 161.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/friends/1/edit" for 10.0.2.2 at 2021-03-07 18:09:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (2.8ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/_form.html.erb (4.0ms)
+  Rendered friends/edit.html.erb within layouts/application (21.1ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 203ms (Views: 198.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/friends/1/edit" for 10.0.2.2 at 2021-03-07 18:11:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFriend Load (1.3ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/_form.html.erb (5.9ms)
+  Rendered friends/edit.html.erb within layouts/application (24.4ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 222ms (Views: 218.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:12:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (7.8ms)
+  Rendered friends/new.html.erb within layouts/application (27.4ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 189ms (Views: 187.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:14:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (6.1ms)
+  Rendered friends/new.html.erb within layouts/application (16.4ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 152ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:15:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (1.4ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (4.8ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 164ms (Views: 161.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 18:15:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 150ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-07 18:15:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.1ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 195ms (Views: 193.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:15:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (5.8ms)
+  Rendered friends/new.html.erb within layouts/application (23.8ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 224ms (Views: 222.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:16:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (2.0ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (6.9ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 225ms (Views: 221.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/friends/1/edit" for 10.0.2.2 at 2021-03-07 18:16:10 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (2.7ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/_form.html.erb (7.3ms)
+  Rendered friends/edit.html.erb within layouts/application (29.1ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 209ms (Views: 203.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/friends/1/edit" for 10.0.2.2 at 2021-03-07 18:16:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFriend Load (1.5ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered friends/_form.html.erb (3.9ms)
+  Rendered friends/edit.html.erb within layouts/application (16.9ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 158ms (Views: 152.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/friends/1/edit" for 10.0.2.2 at 2021-03-07 18:17:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (1.4ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/_form.html.erb (6.7ms)
+  Rendered friends/edit.html.erb within layouts/application (28.4ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 238ms (Views: 233.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:17:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (3.3ms)
+  Rendered friends/new.html.erb within layouts/application (20.6ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 195ms (Views: 193.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:17:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (2.0ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (5.9ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 191ms (Views: 187.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/friends/1/edit" for 10.0.2.2 at 2021-03-07 18:17:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (1.0ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered friends/_form.html.erb (5.7ms)
+  Rendered friends/edit.html.erb within layouts/application (18.3ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 199ms (Views: 195.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:18:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (4.0ms)
+  Rendered friends/new.html.erb within layouts/application (28.1ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 211ms (Views: 209.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:18:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (4.8ms)
+  Rendered friends/new.html.erb within layouts/application (23.1ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 219ms (Views: 217.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:23:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (0.8ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (3.4ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 172ms (Views: 170.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:23:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (3.9ms)
+  Rendered friends/new.html.erb within layouts/application (13.6ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 199ms (Views: 197.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/friends" for 10.0.2.2 at 2021-03-07 18:23:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nnAn/0p5VoESJIj1lVNQVQF8lbeHhvUW0D+jUGitl91PB+23hIgkFDyqKU5aLztyj4eEJvlRd6nNp2SbTYsKbQ==", "friend"=>{"first_name"=>"Test", "last_name"=>"Test", "email"=>"test@test", "phone"=>"111-111-1111", "twitter"=>"@test"}, "commit"=>"Create Friend"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  INSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["first_name", "Test"], ["last_name", "Test"], ["email", "test@test"], ["phone", "111-111-1111"], ["twitter", "@test"], ["created_at", "2021-03-07 18:23:50.270422"], ["updated_at", "2021-03-07 18:23:50.270422"]]
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/friends/4
+Completed 302 Found in 14ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/friends/4" for 10.0.2.2 at 2021-03-07 18:23:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mFriend Load (1.2ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered friends/show.html.erb within layouts/application (1.4ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 1.2ms)
+
+ActionView::Template::Error (Missing partial layous/_alerts with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/friend-list/app/views"
+):
+    18:     <%= render 'home/header' %>
+    19:     <div class="container">
+    20:     <% if notice %>
+    21:       <%= render 'layous/alerts' %>
+    22:     <% end %>
+    23:     <br/>
+    24:      <%= yield %>
+  app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb__3932865334225624485_69914532182960'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.5/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.1ms)
+
+
+Started GET "/friends/4" for 10.0.2.2 at 2021-03-07 18:24:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mFriend Load (2.4ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered friends/show.html.erb within layouts/application (0.6ms)
+  Rendered home/_header.html.erb (0.5ms)
+  Rendered layouts/_alerts.html.erb (0.6ms)
+Completed 200 OK in 147ms (Views: 142.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/friends/4/edit" for 10.0.2.2 at 2021-03-07 18:25:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mFriend Load (2.3ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered friends/_form.html.erb (5.5ms)
+  Rendered friends/edit.html.erb within layouts/application (30.0ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 219ms (Views: 214.1ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:25:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (0.9ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (5.8ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 157ms (Views: 155.0ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/friends/4" for 10.0.2.2 at 2021-03-07 18:25:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iRtem9EukK/IR0RCt/VdTLNoF7GDY//+MOcsI3UJYG9YbJTTH9/iOubJ5fl4iTZrPZMGIP20fUEtf+voUC/93w==", "id"=>"4"}
+  [1m[35mFriend Load (1.3ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "friends" WHERE "friends"."id" = ?  [["id", 4]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/friends
+Completed 302 Found in 13ms (ActiveRecord: 7.3ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:25:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (1.2ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (3.9ms)
+  Rendered home/_header.html.erb (0.6ms)
+  Rendered layouts/_alerts.html.erb (0.1ms)
+Completed 200 OK in 220ms (Views: 217.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:25:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (0.7ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (3.0ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 154ms (Views: 151.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-07 18:25:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  Rendered friends/_form.html.erb (3.8ms)
+  Rendered friends/new.html.erb within layouts/application (20.8ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 212ms (Views: 211.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/friends" for 10.0.2.2 at 2021-03-07 18:26:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ilYqEK5ZOA56iFT1bficYjHLwJ9z2XgDoh3pc08oJSBbIeBYYKhKm1QG9U6ihPdFvzDRDg0O+ry/hS64ag64kA==", "friend"=>{"first_name"=>"Test", "last_name"=>"Test", "email"=>"test@test", "phone"=>"111-111-1111", "twitter"=>"@tiles"}, "commit"=>"Create Friend"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Test"], ["last_name", "Test"], ["email", "test@test"], ["phone", "111-111-1111"], ["twitter", "@tiles"], ["created_at", "2021-03-07 18:26:06.917002"], ["updated_at", "2021-03-07 18:26:06.917002"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/friends/5
+Completed 302 Found in 15ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/friends/5" for 10.0.2.2 at 2021-03-07 18:26:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFriend Load (2.5ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered friends/show.html.erb within layouts/application (1.2ms)
+  Rendered home/_header.html.erb (0.6ms)
+  Rendered layouts/_alerts.html.erb (0.7ms)
+Completed 200 OK in 178ms (Views: 173.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/friends/5" for 10.0.2.2 at 2021-03-07 18:26:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mFriend Load (2.1ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered friends/show.html.erb within layouts/application (0.5ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 157ms (Views: 153.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/friends/5/edit" for 10.0.2.2 at 2021-03-07 18:26:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFriend Load (2.1ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered friends/_form.html.erb (4.0ms)
+  Rendered friends/edit.html.erb within layouts/application (14.9ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 147.1ms | ActiveRecord: 2.1ms)
+
+
+Started PATCH "/friends/5" for 10.0.2.2 at 2021-03-07 18:26:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZt+nwqm5ZNPywmQyHpwpjW4/uBUnw2xriDHY7uWqQ3Q7LTXxFeXBmFFqCsHBhuBu0PvcSpIjw6zuAConrA0vQ==", "friend"=>{"first_name"=>"Test", "last_name"=>"Test", "email"=>"test@test", "phone"=>"111-111-1111", "twitter"=>"@tiles"}, "commit"=>"Update Friend", "id"=>"5"}
+  [1m[35mFriend Load (1.0ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/friends/5
+Completed 302 Found in 7ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/friends/5" for 10.0.2.2 at 2021-03-07 18:26:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFriend Load (2.6ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered friends/show.html.erb within layouts/application (0.7ms)
+  Rendered home/_header.html.erb (0.6ms)
+  Rendered layouts/_alerts.html.erb (0.8ms)
+Completed 200 OK in 203ms (Views: 197.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-07 18:26:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (1.2ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (4.9ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 137ms (Views: 134.6ms | ActiveRecord: 1.2ms)
