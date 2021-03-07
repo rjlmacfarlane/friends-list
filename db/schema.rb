@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20210307184221) do
+ActiveRecord::Schema.define(version: 20210307203428) do
 
   create_table "friends", force: :cascade do |t|
     t.string   "first_name"
@@ -21,7 +21,10 @@ ActiveRecord::Schema.define(version: 20210307184221) do
     t.string   "twitter"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "user_id"
   end
+
+  add_index "friends", ["user_id"], name: "index_friends_on_user_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
