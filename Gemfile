@@ -6,7 +6,7 @@ gem 'sqlite3', '~> 1.3.6', '< 1.4'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
-
+gem 'devise', '~>4.7', '>=4.7.3'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
