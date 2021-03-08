@@ -22,8 +22,8 @@ This contact list app was created as a refresher exercise in Ruby on Rails. The 
 
 ## Getting Started
 
-- Install all dependencies (see below) using the `npm install` command.
-- Run the development web server using the `node express_server.js` command.
+- Install all dependencies (see below) using the `bundle install` command.
+- Run the development web server using the `rails -b 0.0.0.0` command.
 
 ## How to Use
 
