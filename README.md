@@ -1,6 +1,6 @@
 # Friend List Project
 
-This contact list app was created as a refresher exercise in Ruby on Rails, and to gain experience deploying to Heroku. As such, very little attention is given to stylistic details, as the primary focus here is to sharpen my understanding of Active Record and other core Rails functionality. The app contains the following features:
+This contact list app was created as a refresher exercise in Ruby on Rails. The primary focus is to sharpen my understanding of Active Record and other core Rails functionality, with less emphasis on style for the time being. 
 
 ## Features
 
@@ -10,7 +10,8 @@ This contact list app was created as a refresher exercise in Ruby on Rails, and 
 - Contacts are hidden from anonymous users
 - CRUD actions are prohibited unless the user is signed in
 - Anonymous users cannot perform CRUD actions by guessing URL paths
-
+- TODO: Implement search functionality
+- TODO: Implement 'forgot password' mailer
 
 ## Final Product
 
