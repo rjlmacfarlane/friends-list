@@ -3869,3 +3869,322 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-08 00:00:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FriendsController#new as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 401 Unauthorized in 90ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-08 00:00:53 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (88.6ms)
+  Rendered home/_header.html.erb (2.3ms)
+Completed 200 OK in 759ms (Views: 742.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-08 00:01:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (1.3ms)
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (43.1ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 207ms (Views: 204.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-08 00:01:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.2ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 275ms (Views: 272.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-08 00:01:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (35.1ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 214ms (Views: 212.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/about" for 10.0.2.2 at 2021-03-08 00:01:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+  Rendered home/_header.html.erb (1.2ms)
+Completed 200 OK in 168ms (Views: 166.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 10.0.2.2 at 2021-03-08 00:01:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.0ms)
+  Rendered home/_header.html.erb (1.6ms)
+Completed 200 OK in 297ms (Views: 294.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2021-03-08 00:01:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I3PlWEh0+ImhFOANmJIimR/n1fWubT6xIOmkg+YMgBY3JeCLqOYthOw24E6/V3NxV1BvuRNEi70KHUhDEN+b1A==", "user"=>{"email"=>"ryan@mail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "ryan@mail.com"]]
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.5ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I3PlWEh0+ImhFOANmJIimR/n1fWubT6xIOmkg+YMgBY3JeCLqOYthOw24E6/V3NxV1BvuRNEi70KHUhDEN+b1A==", "user"=>{"email"=>"ryan@mail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 488ms (Views: 182.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 10.0.2.2 at 2021-03-08 00:01:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R/qpx+ySGpjIoxbN3rAaPvb7vP4tPu9z8n59rq1gYH1TrKwUDADPlYWBFo75dUvWvkwGspAXWn/YipFuW7N7vw==", "user"=>{"email"=>"ryan@mail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "ryan@mail.com"]]
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.8ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R/qpx+ySGpjIoxbN3rAaPvb7vP4tPu9z8n59rq1gYH1TrKwUDADPlYWBFo75dUvWvkwGspAXWn/YipFuW7N7vw==", "user"=>{"email"=>"ryan@mail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.1ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 433ms (Views: 176.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 10.0.2.2 at 2021-03-08 00:01:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_error_messages.html.erb (0.1ms)
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (35.5ms)
+  Rendered home/_header.html.erb (1.2ms)
+Completed 200 OK in 211ms (Views: 208.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 10.0.2.2 at 2021-03-08 00:01:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kT06Mb7w8caXaFwEisQSOtdwBj/JispUoT+RY/I67EOFaz/iXmIky9pKXEetAUPSn8e8c3Sjf1iLy32jBOn3gQ==", "user"=>{"email"=>"ryan@mail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'ryan@mail.com' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "ryan@mail.com"], ["encrypted_password", "$2a$12$qjc0xLQGS8zU4IcHBjhicuh.PCYNg1CA729z.QfYn5.qQjEJMXHWa"], ["created_at", "2021-03-08 00:01:51.606996"], ["updated_at", "2021-03-08 00:01:51.606996"]]
+  [1m[35m (1.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/friends/new
+Completed 302 Found in 346ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-08 00:01:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered friends/_form.html.erb (15.4ms)
+  Rendered friends/new.html.erb within layouts/application (27.0ms)
+  Rendered home/_header.html.erb (0.7ms)
+  Rendered layouts/_alerts.html.erb (1.6ms)
+Completed 200 OK in 290ms (Views: 194.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-08 00:01:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[35mFriend Load (0.8ms)[0m  SELECT "friends".* FROM "friends"
+  Rendered friends/index.html.erb within layouts/application (3.5ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered home/_header.html.erb (3.6ms)
+Completed 200 OK in 152ms (Views: 149.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-08 00:01:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  [1m[35mUser Load (1.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered friends/_form.html.erb (4.4ms)
+  Rendered friends/new.html.erb within layouts/application (13.0ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 145ms (Views: 139.5ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/friends" for 10.0.2.2 at 2021-03-08 00:02:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0Wk03pqa23eCSmtfzPIlbDC0wYuWHLbOZL+SyZ7z9BfFPzENeggOes9oaxzrN3SEeAN7xys1A8JOS34JaCDv1Q==", "friend"=>{"first_name"=>"John", "last_name"=>"Lennon", "email"=>"lennon@thebeatles.com", "phone"=>"555-555-5555", "twitter"=>"@lucyinthesky", "user_id"=>"1"}, "commit"=>"Create Friend"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["first_name", "John"], ["last_name", "Lennon"], ["email", "lennon@thebeatles.com"], ["phone", "555-555-5555"], ["twitter", "@lucyinthesky"], ["user_id", 1], ["created_at", "2021-03-08 00:02:30.862960"], ["updated_at", "2021-03-08 00:02:30.862960"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/friends/1
+Completed 302 Found in 23ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/friends/1" for 10.0.2.2 at 2021-03-08 00:02:30 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.5ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered friends/show.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered home/_header.html.erb (3.1ms)
+  Rendered layouts/_alerts.html.erb (0.1ms)
+Completed 200 OK in 177ms (Views: 163.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-08 00:02:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered friends/_form.html.erb (3.7ms)
+  Rendered friends/new.html.erb within layouts/application (11.9ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 144ms (Views: 139.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/friends" for 10.0.2.2 at 2021-03-08 00:03:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ixzCJiBUGT+OzKYibQVhSTTqTFisOYcxf584pgxJHu2fSsf1wMbMMsPupmFKwDChfF32FBEQMj1Va9Rm+poFLw==", "friend"=>{"first_name"=>"Bryan", "last_name"=>"Cranston", "email"=>"heisenberg@crystalblue.com", "phone"=>"8155551234", "twitter"=>"@thebluestuff", "user_id"=>"1"}, "commit"=>"Create Friend"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["first_name", "Bryan"], ["last_name", "Cranston"], ["email", "heisenberg@crystalblue.com"], ["phone", "8155551234"], ["twitter", "@thebluestuff"], ["user_id", 1], ["created_at", "2021-03-08 00:03:13.154589"], ["updated_at", "2021-03-08 00:03:13.154589"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/friends/2
+Completed 302 Found in 18ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/friends/2" for 10.0.2.2 at 2021-03-08 00:03:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mFriend Load (0.5ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered friends/show.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered home/_header.html.erb (3.5ms)
+  Rendered layouts/_alerts.html.erb (0.1ms)
+Completed 200 OK in 157ms (Views: 153.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-08 00:03:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered friends/_form.html.erb (5.0ms)
+  Rendered friends/new.html.erb within layouts/application (23.4ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 209ms (Views: 203.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/friends" for 10.0.2.2 at 2021-03-08 00:03:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cBt3peK0jI2eSTjKuBa3fvmkqGDHY9chas9Q5BMTkHpkTXJ2AiZZgNNrOImf0+aWsRMSLHpKYi1AO7wk5cCLuA==", "friend"=>{"first_name"=>"Arthur", "last_name"=>"Fleck", "email"=>"joker@dccomics.com", "phone"=>"815-555-4321", "twitter"=>"@joker", "user_id"=>"1"}, "commit"=>"Create Friend"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["first_name", "Arthur"], ["last_name", "Fleck"], ["email", "joker@dccomics.com"], ["phone", "815-555-4321"], ["twitter", "@joker"], ["user_id", 1], ["created_at", "2021-03-08 00:03:44.530108"], ["updated_at", "2021-03-08 00:03:44.530108"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/friends/3
+Completed 302 Found in 15ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/friends/3" for 10.0.2.2 at 2021-03-08 00:03:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFriend Load (0.5ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered friends/show.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered home/_header.html.erb (3.6ms)
+  Rendered layouts/_alerts.html.erb (0.1ms)
+Completed 200 OK in 186ms (Views: 182.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-08 00:03:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered friends/_form.html.erb (3.8ms)
+  Rendered friends/new.html.erb within layouts/application (17.8ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 183ms (Views: 177.5ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/friends" for 10.0.2.2 at 2021-03-08 00:04:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nJcuP1J4zdzGmlLk9A1OMXh6tDb4z1MlXXTpCyP03RaIwSvssuoY0Yu4UqfTyB/ZMM0OekXm5il3gAXL1SfG1A==", "friend"=>{"first_name"=>"John", "last_name"=>"Edemy", "email"=>"codeguy@codemy.com", "phone"=>"815-614-7787", "twitter"=>"@codeguy", "user_id"=>"1"}, "commit"=>"Create Friend"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["first_name", "John"], ["last_name", "Edemy"], ["email", "codeguy@codemy.com"], ["phone", "815-614-7787"], ["twitter", "@codeguy"], ["user_id", 1], ["created_at", "2021-03-08 00:04:11.736748"], ["updated_at", "2021-03-08 00:04:11.736748"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/friends/4
+Completed 302 Found in 14ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/friends/4" for 10.0.2.2 at 2021-03-08 00:04:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mFriend Load (0.7ms)[0m  SELECT  "friends".* FROM "friends" WHERE "friends"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered friends/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered home/_header.html.erb (4.5ms)
+  Rendered layouts/_alerts.html.erb (0.2ms)
+Completed 200 OK in 218ms (Views: 214.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/friends/new" for 10.0.2.2 at 2021-03-08 00:04:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered friends/_form.html.erb (4.9ms)
+  Rendered friends/new.html.erb within layouts/application (21.1ms)
+  Rendered home/_header.html.erb (1.3ms)
+Completed 200 OK in 229ms (Views: 224.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/friends" for 10.0.2.2 at 2021-03-08 00:04:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h3jdJMC2D0Kn6KrM4PBVQjRNKZ8jpaWrdIn5+y5lefaTLtj3ICTaT+rKqo/HNQSqfPqT056MEKdefRU72LZiNA==", "friend"=>{"first_name"=>"Gregory", "last_name"=>"House", "email"=>"topdoc@hospital.com", "phone"=>"765-555-4414", "twitter"=>"@doctorhouse", "user_id"=>"1"}, "commit"=>"Create Friend"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["first_name", "Gregory"], ["last_name", "House"], ["email", "topdoc@hospital.com"], ["phone", "765-555-4414"], ["twitter", "@doctorhouse"], ["user_id", 1], ["created_at", "2021-03-08 00:04:58.561136"], ["updated_at", "2021-03-08 00:04:58.561136"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/friends/5
+Completed 302 Found in 12ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/friends/5" for 10.0.2.2 at 2021-03-08 00:04:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFriend Load (0.6ms)[0m  [1mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered friends/show.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered home/_header.html.erb (4.5ms)
+  Rendered layouts/_alerts.html.erb (0.1ms)
+Completed 200 OK in 197ms (Views: 193.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/friends" for 10.0.2.2 at 2021-03-08 00:04:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by FriendsController#index as HTML
+  [1m[36mFriend Load (0.4ms)[0m  [1mSELECT "friends".* FROM "friends"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered friends/index.html.erb within layouts/application (17.8ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 177ms (Views: 174.9ms | ActiveRecord: 1.3ms)
